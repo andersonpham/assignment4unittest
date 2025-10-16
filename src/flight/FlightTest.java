@@ -144,7 +144,7 @@ public class FlightTest {
         boolean result1 = fs.runFlightSearch("13/11/2025", "nyc", false, "23/11/2025", "pvg", "economy", 1, 0, 0);
         assertFalse(result1);
 
-        boolean result2 = fs.runFlightSearch("15/11/2025", "lax", false, "25/11/2025", "del", "economy", 2, 0, 0);
+        boolean result2 = fs.runFlightSearch("15/11/2025", "can", false, "25/11/2025", "del", "economy", 2, 0, 0);
         assertFalse(result2);
     }
     @Test
