@@ -9,7 +9,7 @@ public class FlightTest {
 	// Condition 1: Tests the outside the range 1 to 9 inclusive
 
    @Test
-   void testTotalPassengersBelowZero() {
+   void testTotalPassengersBelowOne() {
       FlightSearch fs = new FlightSearch();
       boolean result = fs.runFlightSearch("16/10/2025", "mel", false, "19/10/2025", "pvg", "economy", 0, 0, 0);  
       // Zero Passengers
